@@ -123,7 +123,7 @@
 
 // AXIS1 RA/AZM
 // see https://onstep.groups.io/g/main/wiki/6-Configuration#AXIS1
-#define AXIS1_STEPS_PER_DEGREE    49303.76533 //  12800, n. Number of steps per degree:                                          <-Req'd
+#define AXIS1_STEPS_PER_DEGREE    24651.88267 //  12800, n. Number of steps per degree:                                          <-Req'd
                                           //         n = (stepper_steps * micro_steps * overall_gear_reduction)/360.0
 #define AXIS1_STEPS_PER_WORMROT   0 //  12800, n. Number of steps per worm rotation (PEC Eq mode only:)                <-Req'd
                                           //         n = (AXIS1_STEPS_PER_DEGREE*360)/reduction_final_stage
@@ -144,7 +144,7 @@
 
 // AXIS2 DEC/ALT
 // see https://onstep.groups.io/g/main/wiki/6-Configuration#AXIS2
-#define AXIS2_STEPS_PER_DEGREE    24651.88267 //  12800, n. Number of steps per degree:                                          <-Req'd
+#define AXIS2_STEPS_PER_DEGREE    12325.94133 //  12800, n. Number of steps per degree:                                          <-Req'd
                                           //         n = (stepper_steps * micro_steps * overall_gear_reduction)/360.0
 
 #define AXIS2_DRIVER_MODEL            LV8729 //    OFF, (See above.) Stepper driver model.                                      <-Often
